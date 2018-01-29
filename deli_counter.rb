@@ -19,6 +19,6 @@ def line(line)
   else
   	puts "The line is currently: " 
   	line.each { |e| print "#{line.index(e)+1}. #{e} "}
-  	
+
   end
 end
