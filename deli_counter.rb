@@ -18,7 +18,7 @@ def line(line)
      puts "The line is currently empty."
   else
     str =  "The line is currently: "
-  	line.each_with_index { |e, i| str += "#{i+1}. #{e} "}
+  	line.each_with_index { |e, i| str += "#{i+1}. #{e}"}
     puts str
   end
 end
