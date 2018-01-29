@@ -19,6 +19,6 @@ def line(line)
   else
     str =  "The line is currently: "
   	line.each_with_index { |e, i| str += "#{i+1}. #{e} "}
-    puts str
+    puts str.chop
   end
 end
